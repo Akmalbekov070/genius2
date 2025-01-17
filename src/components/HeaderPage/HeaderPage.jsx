@@ -13,7 +13,7 @@ export default function HeaderPage() {
 						src='https://i.postimg.cc/SxydV0n1/removal-ai-e2c59107-02d4-4e7b-a4bc-dd5d9d16f024-photo-2024-11-04-10-22-39.png'
 						alt='Image Genius'
 					/>
-					<Text w={'100px'} fontStyle={'-moz-initial'} fontFamily={'mono'} fontSize={'xl'}>
+					<Text w={'140px'} fontStyle={'-moz-initial'} fontFamily={'mono'} fontSize={'xl'}>
 						Genius Academy
 					</Text>
 				</HStack>
@@ -31,6 +31,9 @@ export default function HeaderPage() {
 				</Link>
 				<Link href='/' className='hover:text-yellow-500'>
 					Results
+				</Link>
+				<Link href='/' className='hover:text-yellow-500'>
+					Join a Group
 				</Link>
 				{/* clerk this */}
 			</HStack>
