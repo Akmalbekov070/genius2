@@ -52,7 +52,9 @@ export default function HeaderPage() {
 			<HStack gap={3} cursor={'pointer'}>
 				<GrInstagram size={30} className='hover:text-yellow-500' />
 				<RiTelegramLine size={37} className='hover:text-yellow-500' />
-				<Button bg={'yellow.400'}>Join a Group</Button>
+				<Button bg={'yellow.400'} color={'white'}>
+					Join a Group
+				</Button>
 			</HStack>
 		</Box>
 	);
