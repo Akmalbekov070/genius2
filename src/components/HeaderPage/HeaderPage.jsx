@@ -11,7 +11,7 @@ export default function HeaderPage() {
 				w={'full'}
 				h={24}
 				// remove bg
-				bg={'blue.700'}
+
 				backdropFilter='blur(5px)'
 				display={'flex'}
 				alignItems={'center'}
