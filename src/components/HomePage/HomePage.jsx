@@ -23,7 +23,7 @@ export default function HomePage() {
 				alignItems={'center'}
 				px={20}
 			>
-				<Box w={'45%'} pt={10}>
+				<Box w={'45%'}>
 					<Heading fontFamily={'cursive'} fontSize={'50px'} color={'white'} textShadow={'dark-lg'}>
 						More about the newly opened Genius Academy....
 					</Heading>
@@ -31,7 +31,18 @@ export default function HomePage() {
 						About Academy{' '}
 					</Button>
 				</Box>
-				<Heading>Salom</Heading>
+				<Box>
+					<Heading>
+						<Image
+							w={'540px'}
+							rounded={'2xl'}
+							shadow={'dark-lg'}
+							h={'500px'}
+							src='https://i.postimg.cc/Kz0PqGCg/photo-2025-01-28-08-28-33.jpg'
+							alt='img'
+						/>
+					</Heading>
+				</Box>
 			</Box>
 		</Box>
 	);
