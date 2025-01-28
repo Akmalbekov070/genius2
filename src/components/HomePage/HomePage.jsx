@@ -1,6 +1,7 @@
 import React from 'react';
 import HeaderPage from '../HeaderPage/HeaderPage';
 import { Box, Button, Heading, Image } from '@chakra-ui/react';
+import Link from 'next/link';
 
 export default function HomePage() {
 	return (
@@ -31,7 +32,12 @@ export default function HomePage() {
 						About Academy{' '}
 					</Button>
 				</Box>
-				<Box>
+				<Box position={'relative'}>
+					<Box position={'absolute'} top={52} left={56}>
+						<Link href={'/'}>
+							<Image cursor={'pointer'} src='https://i.postimg.cc/66h6MbqN/Frame-34503-1.png' alt='alt' />
+						</Link>
+					</Box>
 					<Heading>
 						<Image
 							w={'540px'}

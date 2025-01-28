@@ -53,8 +53,12 @@ export default function HeaderPage() {
 					{/* clerk this */}
 				</HStack>
 				<HStack gap={3} cursor={'pointer'}>
-					<GrInstagram size={30} className='hover:text-yellow-500' />
-					<RiTelegramLine size={37} className='hover:text-yellow-500' />
+					<Link href={'https://www.instagram.com/academy_genius_?igsh=MW92aWVjYm52MGF3Yg%3D%3D&utm_source=qr'}>
+						<GrInstagram size={30} className='hover:text-yellow-500' />
+					</Link>
+					<Link href={'https://t.me/geniusacademygroup'}>
+						<RiTelegramLine size={37} className='hover:text-yellow-500' />
+					</Link>
 					<Button bg={'yellow.400'} color={'white'}>
 						Join a Group
 					</Button>
