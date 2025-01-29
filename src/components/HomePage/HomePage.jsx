@@ -36,7 +36,7 @@ export default function HomePage() {
 						h={'60px'}
 						mt={10}
 						fontSize={'2xl'}
-						className='hover:bg-transparent'
+						className='hover:text-yellow-500'
 					>
 						About Academy{' '}
 					</Button>

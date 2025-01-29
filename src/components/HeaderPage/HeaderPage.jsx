@@ -59,7 +59,7 @@ export default function HeaderPage() {
 					<Link href={'https://t.me/geniusacademygroup'}>
 						<RiTelegramLine size={37} className='hover:text-yellow-500' />
 					</Link>
-					<Button bg={'yellow.400'} className='hover:bg-transparent' color={'white'}>
+					<Button bg={'yellow.400'} className='hover:text-yellow-500' color={'white'}>
 						Join a Group
 					</Button>
 				</HStack>
