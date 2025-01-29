@@ -29,13 +29,21 @@ export default function HomePage() {
 					<Heading fontFamily={'cursive'} fontSize={'50px'} color={'white'} textShadow={'dark-lg'}>
 						More about the newly opened Genius Academy....
 					</Heading>
-					<Button w={'240px'} bg={'yellow.500'} color={'white'} h={'60px'} mt={10} fontSize={'2xl'}>
+					<Button
+						w={'240px'}
+						bg={'yellow.500'}
+						color={'white'}
+						h={'60px'}
+						mt={10}
+						fontSize={'2xl'}
+						className='hover:bg-transparent'
+					>
 						About Academy{' '}
 					</Button>
 				</Box>
 				<Box position={'relative'}>
 					<Box position={'absolute'} top={52} left={56}>
-						<Link href={'/'}>
+						<Link href={'https://www.instagram.com/reel/DBOESvBujuI/?igsh=MTQxd2c1MXUxZDJ4Zg=='}>
 							<Image cursor={'pointer'} src='https://i.postimg.cc/66h6MbqN/Frame-34503-1.png' alt='alt' />
 						</Link>
 					</Box>
