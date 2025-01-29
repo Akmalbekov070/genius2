@@ -2,6 +2,7 @@ import React from 'react';
 import HeaderPage from '../HeaderPage/HeaderPage';
 import { Box, Button, Heading, Image } from '@chakra-ui/react';
 import Link from 'next/link';
+import PricesPage from '../PrisecPage/PricesPage';
 
 export default function HomePage() {
 	return (
@@ -49,6 +50,10 @@ export default function HomePage() {
 						/>
 					</Heading>
 				</Box>
+			</Box>
+			{/* PricesPage */}
+			<Box w={'full'} pt={'140px'}>
+				<PricesPage />
 			</Box>
 		</Box>
 	);

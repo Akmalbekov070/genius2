@@ -1,6 +1,11 @@
 import HomePage from '@/components/HomePage/HomePage';
-import { Heading } from '@chakra-ui/react';
+import PricesPage from '@/components/PrisecPage/PricesPage';
+import { Box, Heading } from '@chakra-ui/react';
 
 export default function Home() {
-	return <HomePage />;
+	return (
+		<Box>
+			<HomePage />
+		</Box>
+	);
 }
