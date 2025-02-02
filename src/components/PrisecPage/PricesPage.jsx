@@ -23,9 +23,9 @@ export default function PricesPage() {
 	};
 
 	return (
-		<Box w={'full'} h={'auto'} bg={'blackAlpha.700'}>
+		<Box w={'full'} h={'auto'} bg={'black'}>
 			<Box>
-				<Heading textAlign={'center'} py={16} fontSize={'5xl'} fontFamily={'cursive'} textTransform={'uppercase'}>
+				<Heading textAlign={'center'} py={28} fontSize={'5xl'} fontFamily={'cursive'} textTransform={'uppercase'}>
 					Academy view
 				</Heading>
 			</Box>
