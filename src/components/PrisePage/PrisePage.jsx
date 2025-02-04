@@ -52,26 +52,66 @@ export default function PrisePage() {
 						onChange={e => setSelectedOption(e.target.value)}
 						color={'white'}
 					>
-						<option value='option1'>Chemistry</option>
-						<option value='option2'>Biology</option>
-						<option value='option3'>Arabic language</option>
-						<option value='option4'>Mathematics</option>
-						<option value='option5'>Computer literacy</option>
-						<option value='option6'>Programming course</option>
-						<option value='option7'>Prodlyonka</option>
-						<option value='option8'>Russian Prodlyonka</option>
-						<option value='option9'>Individual Prodlyonka</option>
-						<option value='option10'>Russian language</option>
-						<option value='option11'>Korean language</option>
-						<option value='option12'>German language</option>
-						<option value='option13'>English</option>
-						<option value='option14'>English A1</option>
-						<option value='option15'>English A2</option>
-						<option value='option16'>English B1</option>
-						<option value='option17'>English B2</option>
-						<option value='option18'>English C1</option>
-						<option value='option19'>English CEFR</option>
-						<option value='option20'>IELTS</option>
+						<option color='black' value='option1'>
+							Chemistry
+						</option>
+						<option color='black' value='option2'>
+							Biology
+						</option>
+						<option color='black' value='option3'>
+							Arabic language
+						</option>
+						<option color='black' value='option4'>
+							Mathematics
+						</option>
+						<option color='black' value='option5'>
+							Computer literacy
+						</option>
+						<option color='black' value='option6'>
+							Programming course
+						</option>
+						<option color='black' value='option7'>
+							Prodlyonka
+						</option>
+						<option color='black' value='option8'>
+							Russian Prodlyonka
+						</option>
+						<option color='black' value='option9'>
+							Individual Prodlyonka
+						</option>
+						<option color='black' value='option10'>
+							Russian language
+						</option>
+						<option color='black' value='option11'>
+							Korean language
+						</option>
+						<option color='black' value='option12'>
+							German language
+						</option>
+						<option color='black' value='option13'>
+							English
+						</option>
+						<option color='black' value='option14'>
+							English A1
+						</option>
+						<option color='black' value='option15'>
+							English A2
+						</option>
+						<option color='black' value='option16'>
+							English B1
+						</option>
+						<option color='black' value='option17'>
+							English B2
+						</option>
+						<option color='black' value='option18'>
+							English C1
+						</option>
+						<option color='black' value='option19'>
+							English CEFR
+						</option>
+						<option color='black' value='option20'>
+							IELTS
+						</option>
 					</Select>
 					<HStack color={'white'}>
 						<Text fontSize={'20px'} textTransform={'uppercase'} py={10}>
