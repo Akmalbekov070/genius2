@@ -16,7 +16,7 @@ export default function PrisePage() {
 						Learn about course prices
 					</Heading>
 					<Box display={{ xl: 'flex', base: 'none' }}>
-						<Text w={'370px'} fontSize={'19px'} textAlign={'end'}>
+						<Text w={'370px'} fontSize={'19px'} textAlign={'end'} color={'white'}>
 							Choose a course
 						</Text>
 						<Box>
@@ -29,7 +29,7 @@ export default function PrisePage() {
 							alt='img'
 						/>
 					</Box>
-					<Box display={{ xl: 'none', base: 'flex' }} gap={2} pt={2}>
+					<Box display={{ xl: 'none', base: 'flex' }} gap={2} pt={2} color={'white'}>
 						<Text w={'370px'} fontSize={'19px'} textAlign={'end'}>
 							Choose a course
 						</Text>
@@ -50,6 +50,7 @@ export default function PrisePage() {
 						w={{ xl: '500px', lg: '500px', base: '280px' }}
 						placeholder='All courses'
 						onChange={e => setSelectedOption(e.target.value)}
+						color={'white'}
 					>
 						<option value='option1'>Chemistry</option>
 						<option value='option2'>Biology</option>
