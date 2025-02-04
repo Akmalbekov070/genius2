@@ -48,12 +48,12 @@ export default function PrisePage() {
 				>
 					<Select
 						w={{ xl: '500px', lg: '500px', base: '280px' }}
-						placeholder='All course'
-						_placeholder={{ color: 'yellow' }}
+						placeholder='All Course'
+						_placeholder={{ color: 'yellow.800' }}
 						onChange={e => setSelectedOption(e.target.value)}
-						bg={'black'}
+						color={'gray.300'}
 					>
-						<option color='yellow' value='option1'>
+						<option color='yellow.700' value='option1'>
 							Chemistry
 						</option>
 						<option color='black' value='option2'>
