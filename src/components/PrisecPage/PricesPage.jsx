@@ -2,6 +2,7 @@ import { Box, Heading, Image } from '@chakra-ui/react';
 import React from 'react';
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
+import PrisePage from '../PrisePage/PrisePage';
 
 export default function PricesPage() {
 	const responsive = {
@@ -48,6 +49,8 @@ export default function PricesPage() {
 					</Box>
 				</Carousel>
 			</Box>
+			{/* PrisePage ---- */}
+			<PrisePage />
 		</Box>
 	);
 }

@@ -63,7 +63,7 @@ export default function HeaderPage() {
 				</HStack>
 				{/* menu-------  */}
 				<HStack gap={3} cursor={'pointer'}>
-					<Box display={{ xl: 'none', lg: 'flex' }}>
+					<Box display={{ xl: 'none', lg: 'flex' }} color={'black'}>
 						<Menu>
 							<MenuButton pt={1}>
 								<AiOutlineMenu size={'29'} />
