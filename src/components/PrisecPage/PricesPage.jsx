@@ -25,7 +25,7 @@ export default function PricesPage() {
 	return (
 		<Box w={'full'} h={'auto'} bg={'black'}>
 			<Box>
-				<Heading color={'white'} textAlign={'center'} py={28} fontSize={'5xl'} fontFamily={'cursive'} textTransform={'uppercase'}>
+				<Heading color={'white'} textAlign={'center'} py={28} fontSize={'5xl'} fontFamily={'serif'} textTransform={'uppercase'}>
 					Academy view
 				</Heading>
 			</Box>

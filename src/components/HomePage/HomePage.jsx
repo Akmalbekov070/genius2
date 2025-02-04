@@ -27,7 +27,7 @@ export default function HomePage() {
 			>
 				<Box w={{ xl: '45%', lg: '100%', base: '100%' }}>
 					<Heading
-						fontFamily={'cursive'}
+						fontFamily={'serif'}
 						fontSize={{ xl: '50px', lg: '40px', base: '30px' }}
 						color={'white'}
 						textShadow={'dark-lg'}
