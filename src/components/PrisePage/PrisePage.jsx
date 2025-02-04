@@ -46,10 +46,13 @@ export default function PrisePage() {
 					justifyContent={{ base: 'center', xl: 'block' }}
 					alignItems={{ base: 'center', xl: 'block' }}
 				>
-					<Select w={{ xl: '500px', lg: '500px', base: '280px' }} onChange={e => setSelectedOption(e.target.value)} bg={'black'}>
-						<option color='yellow' value='option0'>
-							All Course
-						</option>
+					<Select
+						w={{ xl: '500px', lg: '500px', base: '280px' }}
+						placeholder='All course'
+						_placeholder={{ color: 'yellow' }}
+						onChange={e => setSelectedOption(e.target.value)}
+						bg={'black'}
+					>
 						<option color='yellow' value='option1'>
 							Chemistry
 						</option>
