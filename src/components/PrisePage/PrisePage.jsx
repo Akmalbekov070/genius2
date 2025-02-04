@@ -51,8 +51,9 @@ export default function PrisePage() {
 						placeholder='All courses'
 						onChange={e => setSelectedOption(e.target.value)}
 						color={'white'}
+						bg={'black'}
 					>
-						<option color='black' value='option1'>
+						<option color='yellow' value='option1'>
 							Chemistry
 						</option>
 						<option color='black' value='option2'>
