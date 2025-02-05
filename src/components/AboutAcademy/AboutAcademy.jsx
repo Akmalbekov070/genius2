@@ -7,7 +7,7 @@ export default function AboutAcademy() {
 			<Box
 				w={'full'}
 				display={'flex'}
-				flexDirection={{ base: 'column' }}
+				flexDirection={{ xl: 'unset', base: 'column' }}
 				justifyContent={{ xl: 'space-between', base: 'center' }}
 				alignItems={{ base: 'center' }}
 			>
