@@ -132,12 +132,22 @@ export default function PrisePage() {
 							</Button>
 						)}
 						{selectedOption === 'option2' && (
-							<Button w={{ xl: '500px', base: '280px' }} fontSize={'28px'} color={'yellow.600'} bg={'gray.800'}>
+							<Button
+								w={{ xl: '500px', base: '280px' }}
+								fontSize={{ xl: '28px', base: '15px' }}
+								color={'yellow.600'}
+								bg={'gray.800'}
+							>
 								Biology - 400.000Soum
 							</Button>
 						)}
 						{selectedOption === 'option3' && (
-							<Button w={{ xl: '500px', base: '280px' }} fontSize={'28px'} color={'yellow.600'} bg={'gray.800'}>
+							<Button
+								w={{ xl: '500px', base: '280px' }}
+								fontSize={{ xl: '28px', base: '15px' }}
+								color={'yellow.600'}
+								bg={'gray.800'}
+							>
 								Arabic language - 400.000Soum
 							</Button>
 						)}
@@ -147,37 +157,72 @@ export default function PrisePage() {
 							</Button>
 						)}
 						{selectedOption === 'option5' && (
-							<Button w={{ xl: '500px', base: '280px' }} fontSize={'28px'} color={'yellow.600'} bg={'gray.800'}>
+							<Button
+								w={{ xl: '500px', base: '280px' }}
+								fontSize={{ xl: '28px', base: '15px' }}
+								color={'yellow.600'}
+								bg={'gray.800'}
+							>
 								Computer literacy - 400.000Soum
 							</Button>
 						)}
 						{selectedOption === 'option6' && (
-							<Button w={{ xl: '500px', base: '280px' }} fontSize={'28px'} color={'yellow.600'} bg={'gray.800'}>
+							<Button
+								w={{ xl: '500px', base: '280px' }}
+								fontSize={{ xl: '28px', base: '15px' }}
+								color={'yellow.600'}
+								bg={'gray.800'}
+							>
 								Programming - 500.000Soum
 							</Button>
 						)}
 						{selectedOption === 'option7' && (
-							<Button w={{ xl: '500px', base: '280px' }} fontSize={'28px'} color={'yellow.600'} bg={'gray.800'}>
+							<Button
+								w={{ xl: '500px', base: '280px' }}
+								fontSize={{ xl: '28px', base: '15px' }}
+								color={'yellow.600'}
+								bg={'gray.800'}
+							>
 								Prodlyonka - 600.000Soum
 							</Button>
 						)}
 						{selectedOption === 'option8' && (
-							<Button w={{ xl: '500px', base: '280px' }} fontSize={'28px'} color={'yellow.600'} bg={'gray.800'}>
+							<Button
+								w={{ xl: '500px', base: '280px' }}
+								fontSize={{ xl: '28px', base: '15px' }}
+								color={'yellow.600'}
+								bg={'gray.800'}
+							>
 								Russian Prodlyonka - 400.000Soum
 							</Button>
 						)}
 						{selectedOption === 'option9' && (
-							<Button w={{ xl: '500px', base: '280px' }} fontSize={'28px'} color={'yellow.600'} bg={'gray.800'}>
+							<Button
+								w={{ xl: '500px', base: '280px' }}
+								fontSize={{ xl: '28px', base: '15px' }}
+								color={'yellow.600'}
+								bg={'gray.800'}
+							>
 								Individual Prodlyonka 1.000.000Mln
 							</Button>
 						)}
 						{selectedOption === 'option10' && (
-							<Button w={{ xl: '500px', base: '280px' }} fontSize={'28px'} color={'yellow.600'} bg={'gray.800'}>
+							<Button
+								w={{ xl: '500px', base: '280px' }}
+								fontSize={{ xl: '28px', base: '15px' }}
+								color={'yellow.600'}
+								bg={'gray.800'}
+							>
 								Russian language 400.000Soum
 							</Button>
 						)}
 						{selectedOption === 'option11' && (
-							<Button w={{ xl: '500px', base: '280px' }} fontSize={'28px'} color={'yellow.600'} bg={'gray.800'}>
+							<Button
+								w={{ xl: '500px', base: '280px' }}
+								fontSize={{ xl: '28px', base: '15px' }}
+								color={'yellow.600'}
+								bg={'gray.800'}
+							>
 								Korean language 400.000Soum
 							</Button>
 						)}
@@ -187,12 +232,22 @@ export default function PrisePage() {
 							</Button>
 						)}
 						{selectedOption === 'option13' && (
-							<Button w={{ xl: '500px', base: '280px' }} fontSize={'28px'} color={'yellow.600'} bg={'gray.800'}>
+							<Button
+								w={{ xl: '500px', base: '280px' }}
+								fontSize={{ xl: '28px', base: '15px' }}
+								color={'yellow.600'}
+								bg={'gray.800'}
+							>
 								English 400.000Soum
 							</Button>
 						)}
 						{selectedOption === 'option14' && (
-							<Button w={{ xl: '500px', base: '280px' }} fontSize={'28px'} color={'yellow.600'} bg={'gray.800'}>
+							<Button
+								w={{ xl: '500px', base: '280px' }}
+								fontSize={{ xl: '28px', base: '15px' }}
+								color={'yellow.600'}
+								bg={'gray.800'}
+							>
 								English A1 400.000Soum
 							</Button>
 						)}
@@ -202,27 +257,52 @@ export default function PrisePage() {
 							</Button>
 						)}
 						{selectedOption === 'option16' && (
-							<Button w={{ xl: '500px', base: '280px' }} fontSize={'28px'} color={'yellow.600'} bg={'gray.800'}>
+							<Button
+								w={{ xl: '500px', base: '280px' }}
+								fontSize={{ xl: '28px', base: '15px' }}
+								color={'yellow.600'}
+								bg={'gray.800'}
+							>
 								English B1 550.000Soum
 							</Button>
 						)}
 						{selectedOption === 'option17' && (
-							<Button w={{ xl: '500px', base: '280px' }} fontSize={'28px'} color={'yellow.600'} bg={'gray.800'}>
+							<Button
+								w={{ xl: '500px', base: '280px' }}
+								fontSize={{ xl: '28px', base: '15px' }}
+								color={'yellow.600'}
+								bg={'gray.800'}
+							>
 								English B2 600.000Soum
 							</Button>
 						)}
 						{selectedOption === 'option18' && (
-							<Button w={{ xl: '500px', base: '280px' }} fontSize={'28px'} color={'yellow.600'} bg={'gray.800'}>
+							<Button
+								w={{ xl: '500px', base: '280px' }}
+								fontSize={{ xl: '28px', base: '15px' }}
+								color={'yellow.600'}
+								bg={'gray.800'}
+							>
 								English C1 650.000Soum
 							</Button>
 						)}
 						{selectedOption === 'option19' && (
-							<Button w={{ xl: '500px', base: '280px' }} fontSize={'28px'} color={'yellow.600'} bg={'gray.800'}>
+							<Button
+								w={{ xl: '500px', base: '280px' }}
+								fontSize={{ xl: '28px', base: '15px' }}
+								color={'yellow.600'}
+								bg={'gray.800'}
+							>
 								English Cefr 550.000Soum
 							</Button>
 						)}
 						{selectedOption === 'option20' && (
-							<Button w={{ xl: '500px', base: '280px' }} fontSize={'28px'} color={'yellow.600'} bg={'gray.800'}>
+							<Button
+								w={{ xl: '500px', base: '280px' }}
+								fontSize={{ xl: '28px', base: '15px' }}
+								color={'yellow.600'}
+								bg={'gray.800'}
+							>
 								IELTS 700.000Soum
 							</Button>
 						)}
