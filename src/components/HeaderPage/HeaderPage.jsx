@@ -66,7 +66,7 @@ export default function HeaderPage() {
 					<Box display={{ xl: 'none', lg: 'flex' }} color={'black'}>
 						<Menu>
 							<MenuButton pt={1}>
-								<AiOutlineMenu size={'29'} />
+								<AiOutlineMenu color='white' size={'29'} />
 							</MenuButton>
 							<MenuList>
 								<MenuItem>
