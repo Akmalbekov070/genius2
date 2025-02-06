@@ -49,10 +49,10 @@ export default function ContactPage() {
 						Send Information
 					</Button>
 					<Link href={'https://www.instagram.com/academy_genius_?igsh=MW92aWVjYm52MGF3Yg%3D%3D&utm_source=qr'}>
-						<GrInstagram size={30} className='hover:text-yellow-500' />
+						<GrInstagram size={30} className='hover:text-yellow-500 ' color='white' />
 					</Link>
 					<Link href={'https://t.me/geniusacademygroup'}>
-						<RiTelegramLine size={37} className='hover:text-yellow-500' />
+						<RiTelegramLine size={37} className='hover:text-yellow-500 ' color='' white />
 					</Link>
 				</Box>
 			</Box>
