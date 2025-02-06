@@ -12,7 +12,7 @@ export default function AllCourse() {
 	return (
 		<Box w={'full'} bg={'black'} pt={'70px'}>
 			<Box w={'full'} display={'flex'} flexDirection={'column'} justifyContent={'center'} alignItems={'center'}>
-				<Heading fontFamily={'serif'} fontSize={{ xl: '50px', base: '30px' }}>
+				<Heading fontFamily={'serif'} color={'white'} fontSize={{ xl: '50px', base: '30px' }}>
 					Courses we have available
 				</Heading>
 				{/* one page */}
