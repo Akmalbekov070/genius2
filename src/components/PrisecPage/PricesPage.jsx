@@ -4,6 +4,7 @@ import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import PrisePage from '../PrisePage/PrisePage';
 import AboutAcademy from '../AboutAcademy/AboutAcademy';
+import AllCourse from '../AllCourse/AllCourse';
 
 export default function PricesPage() {
 	const responsive = {
@@ -54,6 +55,8 @@ export default function PricesPage() {
 			<PrisePage />
 			{/* AboutAcademy ---------- */}
 			<AboutAcademy />
+			{/* AllCourse ------- */}
+			<AllCourse />
 		</Box>
 	);
 }
