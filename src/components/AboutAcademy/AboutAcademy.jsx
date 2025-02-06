@@ -34,7 +34,7 @@ export default function AboutAcademy() {
 						w={{ xl: '400px', lg: '700px', base: '500px' }}
 						h={{ xl: '400px', lg: '500px', base: '400px' }}
 						rounded={'xl'}
-						src='https://i.postimg.cc/bvTkrYyF/photo-2025-01-28-08-28-29.jpg'
+						src='https://i.postimg.cc/Kz0PqGCg/photo-2025-01-28-08-28-33.jpg'
 						alt='aboutAcademy'
 					/>
 				</Box>
