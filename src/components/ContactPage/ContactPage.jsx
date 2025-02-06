@@ -52,7 +52,7 @@ export default function ContactPage() {
 						<GrInstagram size={30} className='hover:text-yellow-500 ' color='white' />
 					</Link>
 					<Link href={'https://t.me/geniusacademygroup'}>
-						<RiTelegramLine size={37} className='hover:text-yellow-500 ' color='' white />
+						<RiTelegramLine size={37} className='hover:text-yellow-500 ' color='white' />
 					</Link>
 				</Box>
 			</Box>
