@@ -6,6 +6,8 @@ import PrisePage from '../PrisePage/PrisePage';
 import AboutAcademy from '../AboutAcademy/AboutAcademy';
 import AllCourse from '../AllCourse/AllCourse';
 import ContactPage from '../ContactPage/ContactPage';
+import MapsPage from '../mapsPage/MapsPage';
+import MenuContactPage from '../MenuContactPage/MenuContactPage';
 
 export default function PricesPage() {
 	const responsive = {
@@ -60,6 +62,10 @@ export default function PricesPage() {
 			<AllCourse />
 			{/* ContactPage------ */}
 			<ContactPage />
+			{/* mapsPahe----- */}
+			<MapsPage />
+			{/* MenuPageContact----- */}
+			<MenuContactPage />
 		</Box>
 	);
 }
