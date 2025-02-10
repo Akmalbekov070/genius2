@@ -64,6 +64,8 @@ export default function PricesPage() {
 			<ContactPage />
 			{/* mapsPahe----- */}
 			<MapsPage />
+			{/* MenuPage */}
+			<MenuContactPage />
 		</Box>
 	);
 }
