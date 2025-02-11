@@ -1,4 +1,4 @@
-import { Box, Heading, Image, Text } from '@chakra-ui/react';
+import { Box, Button, Heading, Image, Text } from '@chakra-ui/react';
 import React from 'react';
 
 export default function MenuContactPage() {
@@ -10,7 +10,7 @@ export default function MenuContactPage() {
 			justifyContent={'space-between'}
 			alignItems={'center'}
 			px={{ xl: '150px', base: '50px' }}
-			pt={10}
+			pt={5}
 		>
 			<Box>
 				<Heading fontFamily={'serif'} color={'white'} fontSize={'5xl'} letterSpacing={10}>
@@ -22,9 +22,37 @@ export default function MenuContactPage() {
 				<Text color={'white'} fontSize={'xl'} fontFamily={'serif'}>
 					+998(91).313.89.89
 				</Text>
-        <Heading>
-					
-				</Heading>
+				<Text pt={5} color={'white'}>
+					Write to us and we will help you
+				</Text>
+				<Button w={'230px'} color={'white'} my={2} bg={'yellow.600'} type='submit' colorScheme='blue'>
+					Write to us{' '}
+				</Button>
+			</Box>
+			<Box pt={16}>
+				<Text color={'white'} fontFamily={'serif'}>
+					Home
+				</Text>
+				<Text color={'white'} fontFamily={'serif'} pt={3}>
+					Terms of purchase
+				</Text>
+				<Text color={'white'} fontFamily={'serif'} pt={3}>
+					About the developer
+				</Text>
+				<Text color={'white'} fontFamily={'serif'} pt={3}>
+					About the complex
+				</Text>
+			</Box>
+			<Box pt={'32px'}>
+				<Text color={'white'} fontFamily={'serif'}>
+					Contacts
+				</Text>
+				<Text color={'white'} pt={3} fontFamily={'serif'}>
+					Terms of personal data processing
+				</Text>
+				<Text color={'white'} pt={3} fontFamily={'serif'}>
+					Cookie settings
+				</Text>
 			</Box>
 		</Box>
 	);
