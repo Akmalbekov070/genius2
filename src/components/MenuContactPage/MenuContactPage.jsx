@@ -12,7 +12,13 @@ export default function MenuContactPage() {
 			px={{ xl: '150px', base: '50px' }}
 			pt={5}
 		>
-			<Box>
+			<Box
+				w={{ base: 'full', lg: '400px' }}
+				display={{ base: 'flex', lg: 'block' }}
+				justifyContent={{ base: 'center' }}
+				alignItems={{ base: 'center' }}
+				flexDirection={'column'}
+			>
 				<Heading fontFamily={'serif'} color={'white'} fontSize={'5xl'} letterSpacing={10}>
 					Genius
 				</Heading>
@@ -30,20 +36,22 @@ export default function MenuContactPage() {
 				</Button>
 			</Box>
 			<Box pt={16}>
-				<Text color={'white'} fontFamily={'serif'}>
-					Home
-				</Text>
-				<Text color={'white'} fontFamily={'serif'} pt={3}>
-					Terms of purchase
-				</Text>
-				<Text color={'white'} fontFamily={'serif'} pt={3}>
-					About the developer
-				</Text>
-				<Text color={'white'} fontFamily={'serif'} pt={3}>
-					About the complex
-				</Text>
+				<Box display={{ base: 'none', lg: 'flex' }} flexDirection={{ base: 'row', lg: 'column' }}>
+					<Text color={'white'} fontFamily={'serif'}>
+						Home
+					</Text>
+					<Text color={'white'} fontFamily={'serif'} pt={3}>
+						Terms of purchase
+					</Text>
+					<Text color={'white'} fontFamily={'serif'} pt={3}>
+						About the developer
+					</Text>
+					<Text color={'white'} fontFamily={'serif'} pt={3}>
+						About the complex
+					</Text>
+				</Box>
 			</Box>
-			<Box pt={'32px'}>
+			<Box pt={'29px'} display={{ base: 'none', lg: 'flex' }} flexDirection={{ base: 'row', lg: 'column' }}>
 				<Text color={'white'} fontFamily={'serif'}>
 					Contacts
 				</Text>
