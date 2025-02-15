@@ -44,7 +44,7 @@ export default function HeaderPage() {
 				</Link>
 				{/* right header */}
 				<HStack gap={16} fontSize={'md'} fontFamily={'cursive'} display={{ xl: 'flex', base: 'none' }}>
-					<Link href='/' className='hover:text-yellow-500'>
+					<Link href='/About' className='hover:text-yellow-500'>
 						About Genius
 					</Link>
 					<Link href='/' className='hover:text-yellow-500'>
