@@ -24,7 +24,7 @@ export default function AboutPages() {
 	return (
 		<Box bg={'black'} pt={28}>
 			<Box>
-				<Heading textAlign={'center'} fontFamily={'serif'}>
+				<Heading textAlign={'center'} color={'white'} fontFamily={'serif'}>
 					AboutAcademy
 				</Heading>
 			</Box>

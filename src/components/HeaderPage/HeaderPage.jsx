@@ -70,7 +70,7 @@ export default function HeaderPage() {
 							</MenuButton>
 							<MenuList>
 								<MenuItem>
-									<Link href='/' className='hover:text-yellow-500'>
+									<Link href='/About' className='hover:text-yellow-500'>
 										About Genius
 									</Link>
 								</MenuItem>
