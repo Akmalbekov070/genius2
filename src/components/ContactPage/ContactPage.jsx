@@ -65,7 +65,7 @@ export default function ContactPage() {
 					<FormControl isRequired>
 						<FormLabel color={'white'}>Name</FormLabel>
 						<Input {...register('username')} disabled={load} placeholder='Ismingizni kiriting' />
-						{errors.username && <p className='text-red-500'>{errors.username.message}</p>}
+						{errors.username && <p className='text-red-500'>{errors.username.kursnomi}</p>}
 					</FormControl>
 
 					<FormControl isRequired>
@@ -83,7 +83,7 @@ export default function ContactPage() {
 								/>
 							)}
 						/>
-						{errors.phone && <p className='text-red-500'>{errors.phone.message}</p>}
+						{errors.phone && <p className='text-red-500'>{errors.phone.kursnomi}</p>}
 					</FormControl>
 
 					<FormControl>
