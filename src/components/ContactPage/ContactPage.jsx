@@ -88,7 +88,7 @@ export default function ContactPage() {
 
 					<FormControl>
 						<FormLabel color={'white'}>Course Name</FormLabel>
-						<Input {...register('kursnomi')} placeholder='Kursni Yozing' disabled={load} />
+						<Input {...register('kursnomi')} color={'white'} placeholder='Kursni Yozing' disabled={load} />
 					</FormControl>
 
 					<Button disabled={load} color={'white'} bg={'yellow.600'} type='submit' colorScheme='blue' width='full' mt={8}>
