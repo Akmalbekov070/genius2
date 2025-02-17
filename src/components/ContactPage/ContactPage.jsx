@@ -61,14 +61,14 @@ export default function ContactPage() {
 			</Heading>
 
 			<form onSubmit={handleSubmit(onSubmit)}>
-				<HStack pt={10} spacing={5}>
+				<HStack pt={10} spacing={5} display={{ xl: 'flex', lg: 'block' }}>
 					<FormControl isRequired>
 						<FormLabel color={'white'}>Name</FormLabel>
 						<Input {...register('username')} disabled={load} placeholder='Ismingizni kiriting' />
 						{errors.username && <p className='text-red-500'>{errors.username.kursnomi}</p>}
 					</FormControl>
 
-					<FormControl isRequired>
+					<FormControl isRequired py={5}>
 						<FormLabel color={'white'}>Phone Number</FormLabel>
 						<Controller
 							name='phone'
