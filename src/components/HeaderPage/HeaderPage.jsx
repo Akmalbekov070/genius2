@@ -47,7 +47,7 @@ export default function HeaderPage() {
 					<Link href='/About' className='hover:text-yellow-500'>
 						About Genius
 					</Link>
-					<Link href='/' className='hover:text-yellow-500'>
+					<Link href='/teacher' className='hover:text-yellow-500'>
 						Teachers
 					</Link>
 					<Link href='/' className='hover:text-yellow-500'>
@@ -75,7 +75,7 @@ export default function HeaderPage() {
 									</Link>
 								</MenuItem>
 								<MenuItem>
-									<Link href='/' className='hover:text-yellow-500'>
+									<Link href='/teacher' className='hover:text-yellow-500'>
 										Teachers
 									</Link>
 								</MenuItem>
