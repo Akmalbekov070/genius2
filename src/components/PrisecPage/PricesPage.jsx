@@ -55,7 +55,7 @@ export default function PricesPage() {
 				</Carousel>
 			</Box>
 			{/* PrisePage ---- */}
-			<PrisePage />
+			{/* <PrisePage /> */}
 			{/* AboutAcademy ---------- */}
 			<AboutAcademy />
 			{/* AllCourse ------- */}

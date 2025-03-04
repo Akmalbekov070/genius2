@@ -50,7 +50,7 @@ export default function HeaderPage() {
 					<Link href='/teacher' className='hover:text-yellow-500'>
 						Teachers
 					</Link>
-					<Link href='/' className='hover:text-yellow-500'>
+					<Link href='/Student' className='hover:text-yellow-500'>
 						Students
 					</Link>
 					<Link href='/' className='hover:text-yellow-500'>
@@ -81,7 +81,7 @@ export default function HeaderPage() {
 								</MenuItem>
 								<MenuItem>
 									{' '}
-									<Link href='/' className='hover:text-yellow-500'>
+									<Link href='/Student' className='hover:text-yellow-500'>
 										Students
 									</Link>
 								</MenuItem>
