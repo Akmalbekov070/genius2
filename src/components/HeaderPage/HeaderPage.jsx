@@ -93,7 +93,7 @@ export default function HeaderPage() {
 								</MenuItem>
 								<MenuItem>
 									{' '}
-									<Link href='/' className='hover:text-yellow-500'>
+									<Link href='/joinGroup' className='hover:text-yellow-500'>
 										Join a Group
 									</Link>
 								</MenuItem>
@@ -106,9 +106,11 @@ export default function HeaderPage() {
 					<Link href={'https://t.me/geniusacademygroup'}>
 						<RiTelegramLine size={37} className='hover:text-yellow-500' />
 					</Link>
-					<Button bg={'yellow.400'} className='hover:text-yellow-500' color={'white'}>
-						Join a Group
-					</Button>
+					<Link href={'/joinGroup'}>
+						<Button bg={'yellow.400'} className='hover:text-yellow-500' color={'white'}>
+							Join a Group
+						</Button>
+					</Link>
 				</HStack>
 			</Box>
 		</Box>
