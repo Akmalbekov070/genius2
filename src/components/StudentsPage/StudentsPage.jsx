@@ -49,7 +49,7 @@ export default function StudentsPage() {
 	};
 
 	return (
-		<Box p={28}>
+		<Box pt={28} px={10}>
 			<Table variant='simple' size='md'>
 				<Thead>
 					<Tr>
@@ -71,11 +71,17 @@ export default function StudentsPage() {
 				</Tbody>
 			</Table>
 
-			<Box mt={4} display='flex' gap={2}>
+			<Box mt={4} display={{ base: 'block', xl: 'flex' }} gap={1}>
 				<Input placeholder='Name' value={newName} onChange={e => setNewName(e.target.value)} />
-				<Input placeholder='Data' type='number' value={newAge} onChange={e => setNewAge(e.target.value)} />
+				<Input
+					placeholder='Data'
+					my={{ base: 10, xl: 0 }}
+					type='number'
+					value={newAge}
+					onChange={e => setNewAge(e.target.value)}
+				/>
 				<Input placeholder='Status (+ or -)' value={newStatus} onChange={e => setNewStatus(e.target.value)} />
-				<Button colorScheme='blue' onClick={handleAddRow}>
+				<Button colorScheme='blue' onClick={handleAddRow} mt={{ base: 5, xl: 0 }}>
 					Add Row
 				</Button>
 			</Box>
