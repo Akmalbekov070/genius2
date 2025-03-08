@@ -56,7 +56,7 @@ export default function HeaderPage() {
 					<Link href='/' className='hover:text-yellow-500'>
 						Results
 					</Link>
-					<Link href='/' className='hover:text-yellow-500'>
+					<Link href='/joinGroup' className='hover:text-yellow-500'>
 						Join a Group
 					</Link>
 					{/* clerk this */}

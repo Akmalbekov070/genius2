@@ -55,7 +55,7 @@ export default function ContactPage() {
 	};
 
 	return (
-		<Box w={'full'} bg={'gray.900'} pt={10} mt={10} px={{ xl: '150px', base: '50px' }} rounded={'xl'}>
+		<Box w={'full'} bg={'gray.900'} pt={20} mt={10} px={{ xl: '150px', base: '50px' }} rounded={'xl'}>
 			<Heading color={'white'} fontFamily={'serif'}>
 				You can leave your request here
 			</Heading>
